@@ -33,8 +33,8 @@ for i=1:max_iters
     if plot_progress
         plotprogress(X, centroids, prevcentroids, idx, K, i);
         prevcentroids = centroids;
-
-        s = input('Paused - press enter to continue','s');
+        pause(1)
+        %s = input('Paused - press enter to continue','s');
     end
     
     % Given the memberships, compute new centroids
