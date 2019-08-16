@@ -6,8 +6,8 @@ if(randinit)
   centroids = X(randix(1:K),:);
 else
 %put centroids on the middle
-  A = 400000
-  B = 500000
+  A = 600000
+  B = 800000
   centroids = A+(B-A)*rand(K,2);
 endif
 end

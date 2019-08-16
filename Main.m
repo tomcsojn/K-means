@@ -7,7 +7,7 @@ fprintf('Finding closest centroids.\n\n');
 ##B = 10
 ##X = A+(B-A)*rand(600,2);
 X = load('dat.txt')
-K = 7; % Number of centroids
+K = 5; % Number of centroids
 icentroids = centroidinit(X,K,false);
 
 
